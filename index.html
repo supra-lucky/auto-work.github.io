@@ -4,8 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    /* 添加自定义样式 */
+    table {
+      width: 50%;
+      margin: 50px auto 0; /* 距离顶部50像素，水平居中 */
+      border-collapse: collapse; /* 合并边框 */
+      table-layout: fixed; /* 固定表格布局 */
+    }
+    th, td {
+      border: 1px solid #000; /* 单元格边框颜色 */
+      padding: 15px; /* 单元格内边距 */
+      text-align: center; /* 文本居中对齐 */
+    }
+    th {
+      background-color: #f2f2f2; /* 表头背景颜色 */
+    }
+    a {
+      text-decoration: none; /* 去掉超链接下划线 */
+      color: #007bff; /* 超链接颜色 */
+    }
+    a:hover {
+      text-decoration: underline; /* 鼠标悬停时显示下划线 */
+    }
+    body {
+      font-family: Arial, sans-serif; /* 设置字体 */
+    }
+  </style>
 </head>
 <body>
-  asfaf
+  <table>
+    <tr>
+      <th>工具类别</th>
+      <th>说明视频</th>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td><a href="https://example.com/1">1</a></td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td><a href="https://example.com/2">2</a></td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td><a href="https://example.com/3">3</a></td>
+    </tr>
+  </table>
 </body>
 </html>
